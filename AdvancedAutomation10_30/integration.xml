@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="genericUtilities.ITestListernersUtility"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="computers.DWS_Desktop_05_Test"/>
+      <class name="books.DWS_Books_04_Test"/>
+      <class name="jewelry.DWS_Jewelry_09_Test"/>
+      <class name="logIn.DWS_Features_Products_03_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
