@@ -25,5 +25,6 @@ public class DWS_Register_02_Test extends BaseClass{
 		registerpage.getConfirmPwdTF().sendKeys("12345");
 		logger.log(Status.INFO, "User sends details to password");
 		registerpage.getRegisterbutton().click();
+		System.out.println("Register sucessfully");
 	}
 }
